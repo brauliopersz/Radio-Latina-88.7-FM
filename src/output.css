@@ -720,19 +720,6 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
-.play-icon {
-  /* Estilo inicial del icono de reproducción */
-  background: url("[https://www.flaticon.com/free-icon/play-button_527995?term=play&page=1&position=5&origin=search&related_id=527995]") no-repeat center; /* Reemplazar con la ruta de tu icono de reproducción */
-  background-size: contain;
-  width: 20px; /* Ajustar el ancho según sea necesario */
-  height: 20px; /* Ajustar la altura según sea necesario */
-}
-
-#playButton.playing .play-icon {
-  /* Estilo para el icono de pausa cuando se reproduce */
-  background: url("[https://www.flaticon.com/free-icon/pause_2088562?term=pause&page=1&position=10&origin=search&related_id=2088562]") no-repeat center; /* Reemplazar con la ruta de tu icono de pausa */
-}
-
 .hidden {
   display: none;
 }
